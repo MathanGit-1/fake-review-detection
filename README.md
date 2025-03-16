@@ -66,6 +66,6 @@ print(response.json())
 
 ✨ Author
 👤 Mathan
-📧 Contact: [Your Email]
+📧 Contact: mathankumar137@gmail.com
 🔗 GitHub: MathanGit-1
-🔗 LinkedIn: [Your LinkedIn Profile]
+🔗 LinkedIn: www.linkedin.com/in/mathankumar-r-9bb5a118a
