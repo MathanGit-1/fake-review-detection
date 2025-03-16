@@ -43,3 +43,29 @@ env\Scripts\activate     # For Windows
 #Install Dependencies
 pip install -r requirements.txt
 
+# Train the Model
+jupyter notebook
+# Open model_training.ipynb and run all cells
+
+#Start the Streamlit Web App
+streamlit run app.py
+
+#API Usage (If Using FastAPI)
+Endpoint	Method	Description
+/predict	POST	Predict if a review is fake or real
+
+#Exampe API call
+import requests
+response = requests.post("http://localhost:8000/predict", json={"review": "This product is amazing!"})
+print(response.json())
+
+
+#Future Improvements
+✅ Improve model performance with transformer-based models (BERT, GPT-3)
+✅ Deploy the model on Hugging Face Spaces / AWS / GCP
+
+✨ Author
+👤 Mathan
+📧 Contact: [Your Email]
+🔗 GitHub: MathanGit-1
+🔗 LinkedIn: [Your LinkedIn Profile]
